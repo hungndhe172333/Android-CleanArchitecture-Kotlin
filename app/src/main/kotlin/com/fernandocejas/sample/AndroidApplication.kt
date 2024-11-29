@@ -17,7 +17,6 @@ package com.fernandocejas.sample
 
 import android.app.Application
 import com.fernandocejas.sample.core.allFeatures
-import com.fernandocejas.sample.core.di.coreModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.GlobalContext.startKoin

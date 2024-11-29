@@ -28,18 +28,21 @@
 
     <activity
         android:name=".features.login.ui.LoginActivity"
-        android:label="@string/login_screen_title">
+        android:label="@string/login_screen_title"
+        android:exported="true">
     </activity>
 
     <activity
         android:name=".features.movies.ui.MoviesActivity"
-        android:label="@string/movies_screen_title">
+        android:label="@string/movies_screen_title"
+        android:exported="true">
     </activity>
 
     <activity
         android:name=".features.movies.ui.MovieDetailsActivity"
         android:label="@string/movie_details_screen_title"
-        android:theme="@style/AppTheme.Translucent">
+        android:theme="@style/AppTheme.Translucent"
+        android:exported="true">
     </activity>
 
 </application>
